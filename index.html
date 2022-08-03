@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest-Multipurpose eCommerce</title>
+    <link href="logo/nestLogo.svg">
+    <link rel="stylesheet" href="Sdc.css">;
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+    <div class="front"></div>
+    <header>
+        <nav>
+            <ul class="first-nav">
+                <li>
+                    <a href="#">About <br>Us <span id="about">|</span></a>
+                </li>
+                <li>
+                    <a href="#" id="account">My <br>Account <span id="acc">|</span></a>
+                </li>
+                <li>
+                    <a href="#">Wishlist <span id="wish">|</span></a>
+                </li>
+                <li>
+                    <a href="#" id="order">Order-Tracking</a>
+                </li>
+                <li class="animate">100% Secure Delivery Without Contacting The Courier</li>
+                <li class="animate" id="fan">Super Value Deals Save More With Coupons</li>
+                <li class="animate" id="sec"> Super Value Deals Save More With Coupons</li>
+                <li>Need Help? Call Us: </li>
+                <li>+1800
+                    <br>900</li>
+                <li>
+                    <span id="english">|</span>
+                    <a href="#">
+                    English&downarrow;</a>
+                    <ul>
+                        <li class="lang ">
+                            <a href="# ">Francais</a>
+                        </li>
+                        <li class="lang ">
+                            <a href="# ">Deutsch</a>
+                        </li>
+                        <li class="lang ">
+                            <a href="# ">Pykccn</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span id="currency">|</span>
+                    <a href="# ">USD&downarrow;</a>
+                    <ul class="currency ">
+                        <li>
+                            <a href="# ">IN</a>
+                        </li>
+                        <li>
+                            <a href="# ">ME</a>
+                        </li>
+                        <li>
+                            <a href="# ">EUR</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="front"></div>
+    <section class="second-nav">
+        <div>
+            <button>Toggle</button>
+        </div>
+
+        <div>
+            <img src="logo/nestLogo.svg" width="180px" height="150px" style="padding-left: 20px;">
+        </div>
+
+        <div class="categories">
+
+            <select>
+                <option value="All Categories" selected>All Categories</option>
+                <option value="Milk" >Milk and Diaries</option>
+                <option value="Wines" >Wines & Alcohol</option>
+                <option value="Clothing" >Clothing & Beauty</option>
+                <option value="pet" >Pet Food & Toys</option>
+                <option value="FastFood" >FastFood</option>
+                <option value="Baking" >Baking Materials</option>
+                <option value="Vegetables" >Vegetables</option>
+                <option value="Fresh" >Fresh Seafood</option>
+                <option value="Noodles" >Noodles & Rice</option>
+                <option value="Ice" >Ice Cream</option>
+            </select>
+            <input type="search" placeholder="Search for items... " id="all">
+
+        </div>
+        <div>
+
+            <p> <img src="logo/icon-compare.svg" alt="heart"> Compare
+                <span class="sup">
+                    3</span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <img src="logo/icon-heart.svg" alt="heart">WishList
+                <span class="sup">
+                    6</span>
+                <span class="sub-2">4</span>
+        </div>
+        <div>
+
+            <p id="cart">
+                <img src="logo/icon-cart.svg" alt=""> Cart
+                <span class="sup">
+                    2</span>
+            </p>
+            <div class="Cart" id="cartItems">
+                <div>
+                    <img src="images/juice.jpg" alt="images">
+                </div>
+                <div>
+                    <h3>Daily Casual Bag</h3>
+                    <span>1 X $800.00</span>
+
+                </div>
+                <div>
+                    <span class="cross">X</span>
+                </div>
+                <div>
+                    <img src="images/pepper.jpg">
+                </div>
+                <div>
+                    <h3>Corduory Drinks</h3>
+                    <span>1 X $3200.00</span>
+
+                </div>
+                <div>
+                    <span class="cross">X</span>
+                </div>
+                <div class="under"></div>
+                <div>
+                    <h4>Total</h4>
+                </div>
+                <div>
+                    <h2>$4000.00</h2>
+                </div>
+                <div>
+                    <p>View Cart</p>
+                </div>
+                <div>
+                    <p>Check Out</p>
+                </div>
+
+            </div>
+            <div class="Cart-second" id="cartItem">
+                <div>
+                    <img src="images/juice.jpg" alt="images">
+                </div>
+                <div>
+                    <h3>Plain Striola Shirts</h3>
+                    <span>1 X $800.00</span>
+
+                </div>
+                <div>
+                    <span class="cross">X</span>
+                </div>
+                <div>
+                    <img src="images/banana.jpg">
+                </div>
+                <div>
+                    <h3>MacBook Pro 2022</h3>
+                    <span>1 X $3500.00</span>
+
+                </div>
+                <div>
+                    <span class="cross">X</span>
+                </div>
+                <div class="under"></div>
+                <div>
+                    <h4>Total</h4>
+                </div>
+                <div>
+                    <h2>$4300.00</h2>
+                </div>
+                <div>
+                    <p>View Cart</p>
+                </div>
+                <div>
+                    <p>Check Out</p>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <p class="acct" id="toggle">
+                <img src="logo/icon-user.svg" alt="User">Account
+                <ul class="accountInfo" id="showInfo">
+                    <li>My Account</li>
+                    <li>Order Tracking</li>
+                    <li> My Voucher</li>
+                    <li>My Wishlist</li>
+                    <li> Settings</li>
+                    <li>Sign Out</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+    <div class="middle"></div>
+    <main>
+        <section class="mainNav">
+            <div>
+                <p id="browse"> Browse</p>
+                <p id="allToggle">All</p>
+                <p id="category">Categories</p>
+                <p id="arrow">+
+                </p>
+                <nav class="subHide" id="nav">
+                    <ul>
+                        <li>
+                            <img src="logo/milk.svg" alt="milk">
+                            <a href="#">Milks and Diaries</a>
+                        </li>
+                        <li>
+                            <img src="logo/clothing.svg" alt="">
+
+                            <a href="#">Clothing & Beauty</a>
+                        </li>
+                        <li>
+                            <img src="logo/petfood.svg" alt="">
+                            <a href="#">Pet Foods & Toy</a>
+                        </li>
+                        <li>
+                            <img src="logo/baking.svg" alt="">
+                            <a href="#">Baking Material</a>
+                        </li>
+                        <li>
+                            <img src="logo/Fruit.svg" alt="">
+                            <a href="#">Fresh Fruit</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="logo/wines.svg" alt="">
+                            <a href="#">Wines & Drinks</a>
+                        </li>
+                        <li>
+                            <img src="logo/fresh.svg" alt="">
+                            <a href="#">Fresh Seafood</a>
+                        </li>
+                        <li>
+                            <img src="logo/food.svg" alt="">
+                            <a href="#">Fast Food</a>
+                        </li>
+                        <li>
+                            <img src="logo/vegetables.svg" alt="">
+                            <a href="#">Vegetables</a>
+                        </li>
+                        <li>
+                            <img src="logo/bread.svg" alt="">
+                            <a href="#">Bread and Juice</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+            <div>
+                <nav>
+                    <ul class="mainFlex">
+                        <li>
+                            <a href="#">Hot Deals</a>
+                        </li>
+                        <li id="homeToggle">
+                            <a href="#">Home    &downarrow;
+                        <ul class="homeHide" id="home">
+                            <li>
+                                <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 4</a>
+                        </li>
+
+                    </ul>
+                    </a>
+                    </li>
+                    <li>
+                        <a href="# ">About</a>
+                    </li>
+                    <li id="shopToggle">
+                        <a href="#">Shops  &downarrow;</a>
+                        <ul class="ShopHide" id="shop">
+                            <li>
+                                <a href="# ">Shop Grid- Right Sidebar</a>
+                            </li>
+                            <li>
+                                <a href=" ">Shop Grid- Left Sidebar</a>
+                            </li>
+                            <li>
+                                <a href="# ">Shop List- Right Sidebar</a>
+                            </li>
+                            <li>
+                                <a href="# ">Shop List- Left Sidebar</a>
+                            </li>
+                            <li>
+                                <a href="# ">Shop Wide</a>
+                            </li>
+                            <li id="shopSubToggle">
+                                <a href="#">Single-Product&nbsp;&nbsp;&rightarrow;</a>
+                                <ul id="shopSub">
+                                    <li>
+                                        <a href="# ">Product - RightSidebar</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Product - Left-SideBar</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Product - NoSidebar</a>
+                                    </li>
+                                    <li>
+                                        <a href="# ">Product - Vendor Info</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Shop - Filter</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop - WishList</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop - Cart</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop-Checkout</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop - Compare</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="vendToggle">
+                        <a href="#">Vendors  &downarrow;</a>
+                        <ul class="vendHide" id="vend">
+                            <li>
+                                <a href="#">Vendors Grid</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendor List</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendor Details 01</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendor Details 02</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendor Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendor Guide</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="mega">
+                        <a href="#">Mega menu   &downarrow;</a>
+                        <ul class="megaHide" id="megaItems">
+                            <ul>Fruits & Vegetables
+                                <li>
+                                    <a href="#">Meat & Poultry</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fresh Vegetables</a>
+                                </li>
+                                <li>
+                                    <a href="#">Herbs & Seasonings</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Cuts & Sprouts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Exoctic Fruits & Veggies</a>
+                                </li>
+                                <li>
+                                    <a href="#">Packaged Produce</a>
+                                </li>
+
+                            </ul>
+                            <ul>Breakfast & Diary
+                                <li>
+                                    <a href="#">Milk and Flavoured Milk</a>
+                                </li>
+                                <li>
+                                    <a href="#">Butter and Margarine</a>
+                                </li>
+                                <li>
+                                    <a href="#">Eggs Subsstitutes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Marmalades</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sour Cream</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cheese</a>
+                                </li>
+                            </ul>
+                            <ul>Meat & Seafood
+                                <li>
+                                    <a href="#">BreakFast Sausage</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dinner Sausage</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Chicken</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                Sliced Deli</a>
+                                </li>
+                                <li>
+                                    <a href="#">Wild Caught Fillets</a>
+                                </li>
+                                <li>
+                                    <a href="#">Crab and Shellfish</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <div>
+                                    <p>Hot Deals</p>
+                                    <h2>Don,t Miss
+                                        <br> Trending
+                                    </h2>
+                                    <h3>Save Up To 50%</h3>
+                                    <button>Shop</button>
+                                    <h4>25% <br> Off</h4>
+                                </div>
+
+                            </ul>
+                        </ul>
+
+                    </li>
+                    <li id="blogToggle">
+                        <a href="#">Blog  &downarrow;</a>
+                        <ul class="BlogHide" id="blog">
+                            <li>
+                                <a href="#">Blog Category Grid</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog Category List</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog Category Big</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog Category Wide</a>
+                            </li>
+                            <li id="blogSubToggle">
+                                <a href="#">Single Page &nbsp;&nbsp;&rightarrow;</a>
+                                <ul class="blogSubHide" id="blogSubItem">
+                                    <li>
+                                        <a href="#">Left Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Right Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">No Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="pagetoggle">
+                        <a href="#">Pages  &downarrow;</a>
+                        <ul class="PageHide" id="Pages">
+                            <li>
+                                <a href="# ">About Us</a>
+                            </li>
+                            <li>
+                                <a href="# ">Contact</a>
+                            </li>
+                            <li>
+                                <a href="# ">My Account</a>
+                            </li>
+                            <li>
+                                <a href="# ">Login</a>
+                            </li>
+                            <li>
+                                <a href="# ">Register</a>
+                            </li>
+                            <li>
+                                <a href="# ">Purchase Guide</a>
+                            </li>
+                            <li>
+                                <a href="# ">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="# ">Terms of Service</a>
+                            </li>
+                            <li>
+                                <a href="# ">404 Page</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="contact">
+                        <a href="#">Contact</a>
+                    </li>
+
+                    </ul>
+
+
+                </nav>
+
+
+            </div>
+            <div>
+                <img src="logo/icon-headphone.svg" alt="">
+                <h2>1900-
+                    <br>888</h2>
+                <small>24/7 Support Centre</small>
+            </div>
+        </section>
+        <div id="mid"></div>
+        <section class="Products">
+            <aside class="catCon">
+                <h2>Category</h2>
+                <div>
+                    <img src="logo/milk.svg" alt="">
+                    <a href="#">Milks &<br> Diaries</a>
+                    <p id="milk"></p>
+
+                </div>
+                <div>
+                    <img src="logo/clothing.svg" alt="">
+                    <a href="#">Clothing</a>
+                    <p id="clothing"></p>
+                </div>
+                <div>
+                    <img src="logo/petfood.svg" alt="">
+                    <a href="#">Pet Food</a>
+                    <p id="pet"></p>
+                </div>
+                <div>
+                    <img src="logo/baking.svg" alt="">
+                    <a href="#">Baking <br>Material</a>
+                    <p id="bake"></p>
+                </div>
+                <div>
+                    <img src="logo/Fruit.svg" alt="">
+                    <a href="#">Fresh Fruit</a>
+                    <p id="fresh"></p>
+                </div>
+
+
+            </aside>
+            <main class="banner" id="bannerHeader">
+
+                <div>
+
+                    <h1 id="banner-head">Don,t miss amazing grocery Deals</h1>
+                    <p id="banner-text">Sign up for the daily newsletter
+                    </p>
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </div>
+                <div>
+                    <button id="next">></button>
+                    <button id="prev"><</button>
+                </div>
+                <div>
+                    <input type="radio" name="rad" value="grocery" checked>
+                    <input type="radio" name="rad" value="vegetables">
+                </div>
+            </main>
+            <aside class="filter">
+                <h2>Fill by price</h2>
+                <div>
+                    <input type="range" min="16" value="16" max="400" id="lowVal">
+                    <input type="range" min="16" value="300" max="400" id="highVal">
+                    <p>Range:</p>
+                    <span id="low"><b>$16</b></span>
+                    <span id="high"><b>- $300</b></span>
+                </div>
+                <div>
+                    <h4>Color</h4>
+                    <label for="red"><input type="checkbox"id="red">Red(56)</label><br>
+                    <label for="green"><input type="checkbox" id="green">Green(78)</label><br>
+                    <label for="blue"><input type="checkbox" id="blue">Blue(54)</label>
+                </div>
+                <div class="Goods">
+                    <h4>Item Condition</h4>
+                    <label for="new"><input type="checkbox" name="" id="new">New(1506)</label><br>
+                    <label for="Refurbished"><input type="checkbox" name="" id="Refurbished">Refurbished(27)</label><br>
+                    <label for="Used"><input type="checkbox" name="" id="Used">Used(45)</label><br>
+                    <button>Filter</button>
+                </div>
+            </aside>
+            <main class="popularProducts">
+                <div>
+                    <h1>Popular Products</h1>
+                    <span>All</span>
+                    <span>Milks & Diaries</span>
+                    <span>Coffee & Tea</span>
+                    <span>Pet Foods</span>
+                    <span>Meats</span>
+                    <span> Vegetables</span>
+                    <span>Fruits</span>
+                </div>
+
+                <div>
+
+                    <img src="product/snack-flakes.jpg " alt="snack-flakes ">
+                    <p>Snack</p>
+                    <h4>Seeds of Change Organic Quinoe</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$28.85
+                        <button>Add</button></h3>
+                    <del>32.8</del>
+
+                </div>
+                <div>
+                    <img src="product/meat-balls.jpg " alt="meat-balls ">
+                    <p>Hodo Foods</p>
+                    <h4>All Natural Italian -<br> Style Chicken<br>Meatballs</h4>
+                    <p>(3.5)</p>
+                    <p>By
+                        <span>Stouffer</span></p>
+                    <h3>$52.85
+                        <button>Add</button></h3>
+                    <del>55.8</del>
+                </div>
+                <div>
+                    <img src="product/veggiepops.jpg " alt="veggiepops ">
+                    <p>Snack</p>
+                    <h4>Angie’s<br> Boomchickapop<br> Sweet & Salt</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>Krist</span></p>
+                    <h3>$48.85
+                        <button>Add</button></h3>
+                    <del>52.8</del>
+                </div>
+                <div>
+                    <img src="product/bean-nut.jpg " alt="bean-nut ">
+                    <p>Vegetables</p>
+                    <h4>Foster Farms<br> Takeout Crispy<br> Classic</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$17.85
+                        <button>Add</button></h3>
+                    <del>19.8</del>
+                </div>
+                <div>
+                    <img src="product/almonds.jpg " alt="almond ">
+                    <p>Pet foods</p>
+                    <h4>Blue Diamond<br> Almonds Lightly</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$23.85
+                        <button>Add</button></h3>
+                    <del>25.8</del>
+                </div>
+                <div>
+                    <img src="product/product-6-2.jpg " alt="product-6-2 ">
+                    <p>Hodo Foods</p>
+                    <h4>Chobani Complete Vanilla Greek</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$54.85
+                        <button>Add</button></h3>
+                    <del>55.8</del>
+
+
+                </div>
+                <div>
+                    <img src="product/product-7-2.jpg " alt="product-7-2 ">
+                    <p>Meats</p>
+                    <h4>Canada Dry Ginger <br> Ale – 2 L Bottle</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$32.85
+                        <button>Add</button></h3>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="product/product-8-2.jpg " alt="product-8-2 ">
+                    <p>Snack</p>
+                    <h4>Encore Seafoods Stuffed Alaskan</h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>NestFood</span></p>
+                    <h3>$35.85
+                        <button>Add</button></h3>
+                    <del>37.8</del>
+                </div>
+                <div>
+                    <img src="product/product-9-2.jpg " alt="product-9-2 ">
+                    <p>Coffes</p>
+                    <h4>Gorton’s Beer<br> Battered Fish<br> Fillets </h4>
+                    <p>(4.0)</p>
+                    <p>By
+                        <span>Old El Paso</span></p>
+                    <h3>$23.85
+                        <button>Add</button></h3>
+                    <del>25.8</del>
+
+
+                </div>
+                <div>
+                    <img src="product/product-10-2.jpg " alt="product-10-2 ">
+                    <p>Cream</p>
+                    <h4>Haagen-Dazs <br>Caramel Cone Ice <br>Cream</h4>
+                    <p>(2.0)</p>
+                    <p>By
+                        <span>Tyson</span></p>
+                    <h3>$22.85
+                        <button>Add</button></h3>
+                    <del>24.8</del>
+
+
+                </div>
+
+            </main>
+            <aside class="newProducts ">
+                <h2>New Products</h2>
+                <div>
+                    <img src="images/juice.jpg " alt=" ">
+                    <h3>Chen
+                        <br>Cardigan</h3>
+                    <p>$99.50</p>
+                </div>
+                <div>
+                    <img src="images/banana.jpg " alt=" ">
+                    <h3>Chen<br> Sweater</h3>
+                    <p>$89.50</p>
+                </div>
+                <div>
+                    <img src="images/watermelon.jpg " alt=" ">
+                    <h3>ColourFul
+                        <br>Jacket</h3>
+                    <p>$25</p>
+                </div>
+            </aside>
+            <main class="deals">
+                <div>
+                    <h1>Deals Of The Day</h1>
+                    <a href="#">All Deals&nbsp; &nbsp;></a>
+                </div>
+                <div>
+                    <img src="images/banner-5.png " alt="banner-5 ">
+                    <div>
+                        <h4>Seeds of Change Organic Quinoa, Brown</h4>
+                        <p>(4.0)</p>
+                        <p>By
+                            <span>NestFood</span></p>
+                        <h3>$32.85
+                            <button>Add</button></h3>
+                        <del>33.8</del>
+
+
+                    </div>
+                </div>
+                <div>
+                    <img src="images/banner-6.png " alt=" ">
+                    <div>
+                        <h4>Perdue Simply Smart Organics Gluten</h4>
+                        <p>(4.0)</p>
+                        <p>By
+                            <span>Old El Paso</span></p>
+                        <h3>$24.85
+                            <button>Add</button></h3>
+                        <del>26.8</del>
+
+
+                    </div>
+
+                </div>
+                <div>
+                    <img src="images/banner-7.png " alt=" ">
+                    <div>
+                        <h4>Signature Food-Wired Mushroom</h4>
+                        <p>(3.0)</p>
+                        <p>By
+                            <span>Progresso</span></p>
+                        <h3>$12.85
+                            <button>Add</button></h3>
+                        <del>13.8</del>
+
+
+                    </div>
+                </div>
+                <div>
+                    <img src="images/banner-8.png " alt=" ">
+                    <div>
+                        <h4>Simple Lemonade with Raspberry Juice</h4>
+                        <p>(3.0)</p>
+                        <p>By
+                            <span>YoPlait</span></p>
+                        <h3>$15.85
+                            <button>Add</button></h3>
+                        <del>16.8</del>
+
+
+                    </div>
+                </div>
+            </main>
+            <aside class="orangeSec ">
+                <p>oganic</p>
+                <div>
+
+
+                    <h2>Save 17% <br> On
+                        <span>Oganic</span>
+                        <br>Juice</h2>
+                </div>
+            </aside>
+            <main class="subSec">
+                <div>
+                    <h3>Everyday Fresh & Clean with Our Products</h3>
+                    <button><a href="# "></a>Shop Now  &nbsp;&rightarrow;</button>
+                </div>
+                <div>
+                    <h3>Make your Breakfast Healthy and Easy</h3>
+                    <button><a href="# "></a>Shop Now &nbsp;&rightarrow;</button>
+                </div>
+                <div>
+                    <h3>The best Organic Products Online</h3>
+                    <button><a href="# "></a>Shop Now &nbsp;&rightarrow;</button>
+                </div>
+            </main>
+        </section>
+        <section class="ShopByCat">
+            <div>
+                <h1>Shop By Categories</h1>
+                <p>All Categories &nbsp;></p>
+                <span>&leftarrow;</span>
+                <span> &rightarrow;</span>
+            </div>
+            <div>
+                <img src="logo/fast.svg " alt="fast ">
+                <p>FastFood</p>
+            </div>
+            <div>
+                <img src="logo/ice.svg " alt="iceCream ">
+                <p>Ice Cream</p>
+            </div>
+            <div>
+                <img src="logo/milk.svg " alt="milk ">
+                <p>Milks & Diaries</p>
+            </div>
+            <div>
+                <img src="logo/alcohol.svg " alt="wines ">
+                <p>Wines & Drinks</p>
+            </div>
+            <div>
+                <img src="logo/clothing.svg " alt="clothing ">
+                <p>Clothing & Beauty</p>
+            </div>
+            <div>
+                <img src="logo/petfood.svg " alt="petfood ">
+                <p>PetFoods & Toy</p>
+            </div>
+            <div>
+                <img src="logo/fresh.svg " alt="fresh ">
+                <p>Packaged Fast Food</p>
+            </div>
+            <div>
+                <img src="logo/wines.svg " alt="baking ">
+                <p>Baking Materials</p>
+            </div>
+
+        </section>
+        <section class="sellingProducts ">
+            <div>
+                <h1>Top Selling</h1>
+                <div>
+                    <img src="images/carrot.jpg " alt="carrot ">
+                    <h3><a href="# ">Nestle Original Coffee-Mate Coffee Creamer </a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src=" images/pepper.jpg " alt="carrot ">
+                    <h3><a href="# ">Nestle Original Coffee-Mate Coffee Creamer </a></h3>
+
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/juice.jpg " alt="carrot ">
+                    <h3><a href="# ">Nestle Original Coffee-Mate Coffee Creamer </a></h3>
+
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+
+            </div>
+            <div>
+                <h1>Trending Products</h1>
+                <div>
+                    <img src="images/banana.jpg " alt="carrot ">
+                    <h3><a href="# ">Organic Cage-Free Grade A Large Brown Eggs
+                    </a>
+                    </h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/watermelon.jpg " alt="carrot ">
+                    <h3><a href=" # ">Seeds of Change Organic Quinoa, Brown, & Red Rice</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/soursop.jpg " alt="carrot ">
+                    <h3><a href="# ">Naturally Flavored Cinnamon Vanilla Light Roast Coffee</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+
+            </div>
+            <div>
+                <h1>Recently Added</h1>
+                <div>
+                    <img src="images/plume.jpg " alt="carrot">
+                    <h3><a href="# ">Pepperidge Farm Farmhouse Hearty White Bread</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/chips.jpg " alt="carrot">
+                    <h3><a href="# ">Organic Frozen Triple Berry Blend</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/corn.jpg " alt="carrot">
+                    <h3><a href="# ">Oroweat Country Buttermilk Bread</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+
+            </div>
+            <div>
+                <h1>Top Added</h1>
+                <div>
+                    <img src="images/blueberries.jpg " alt="carrot ">
+                    <h3><a href="# ">Foster Farms Takeout Crispy Classic Buffalo Wings</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/pear.jpg " alt="carrot ">
+                    <h3><a href="# ">Angie’s Boomchickapop Sweet & Salty Kettle Corn</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+                <div>
+                    <img src="images/lemon.jpg " alt="carrot ">
+                    <h3><a href="# ">All Natural Italian-Style Chicken Meatballs</a></h3>
+                    <p>(4.0)</p>
+                    <p>$32.85</p>
+                    <del>33.8</del>
+                </div>
+
+            </div>
+        </section>
+        <section class="email ">
+            <div>
+
+                <h1>Stay Home & get your daily needs from our Shop</h1>
+                <p>Start You'r Daily Shopping with
+                    <span>Nest Mart</span></p>
+                <input type="email " placeholder="Your email address ">
+                <button>Subscribe</button>
+            </div>
+
+        </section>
+        <section class="offers ">
+            <div>
+                <img src="logo/tag.svg " alt="tag ">
+                <h5>Best prices & offers</h5>
+                <p>Order $50 or More</p>
+            </div>
+            <div>
+                <img src="logo/handshake.svg " alt="handshake ">
+                <h5>Free Delivery</h5>
+                <p>24/7 amazing services</p>
+            </div>
+            <div>
+                <img src="logo/newsletter.svg " alt="newsletter ">
+                <h5>Great daily deal</h5>
+                <p>When you Sign up</p>
+            </div>
+            <div>
+                <img src="logo/connect.svg " alt="connect ">
+                <h5>Wide Assorment</h5>
+                <p>Mega Discount</p>
+
+            </div>
+            <div>
+                <img src="logo/returns.svg " alt=" ">
+                <h5>Easy Returns</h5>
+                <p>Within 30 days</p>
+
+            </div>
+            <div>
+                <img src="logo/safe.svg" alt=" ">
+                <h5>Safe Delivery</h5>
+                <p>Within 30 days</p>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <aside>
+                <p><img src="logo/nestLogo.svg" alt="nestLogo"></p>
+                <p>Awesome grocery store website template</p>
+                <div>
+                    <img src="logo/address.svg " alt="address ">
+                    <p><span>Address:</span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
+                </div>
+                <div>
+                    <img src="logo/call.svg " alt="call ">
+                    <p><span>Call:</span>(+91) - 540-025-124553</p>
+                </div>
+                <div>
+                    <img src="logo/icon-email-2.svg " alt="email ">
+                    <p><span>Email:</span>Sale@Nest.com</p>
+                </div>
+                <div>
+                    <img src="logo/icon-clock.svg " alt="clock ">
+                    <p><span>Hour:</span>:10:00 - 18:00, Mon - Sat</p>
+                </div>
+
+            </aside>
+            <div>
+                <ul>Company
+                    <li>
+                        <a href="# ">About Us</a>
+                    </li>
+                    <li>
+                        <a href="# ">Delivery Information</a>
+                    </li>
+                    <li>
+                        <a href="# ">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="# ">Terms & Conditons</a>
+                    </li>
+                    <li>
+                        <a href="# ">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="# ">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="# ">Careers</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>Account
+                    <li>
+                        <a href="# ">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="# ">View Cart</a>
+                    </li>
+                    <li>
+                        <a href="# ">My Wishlist</a>
+                    </li>
+                    <li>
+                        <a href="# ">Track My Order</a>
+                    </li>
+                    <li>
+                        <a href="# ">Help Ticket</a>
+                    </li>
+                    <li>
+                        <a href="# ">Shipping Details</a>
+                    </li>
+                    <li>
+                        <a href="# ">Compare Products</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>Corporate
+                    <li>
+                        <a href="# ">Become a Vendor</a>
+                    </li>
+                    <li>
+                        <a href="# ">Affliate Program</a>
+                    </li>
+                    <li>
+                        <a href="# ">Farn Buisness</a>
+                    </li>
+                    <li>
+                        <a href="# ">Farm Career</a>
+                    </li>
+                    <li>
+                        <a href="# ">Our Suppliers</a>
+                    </li>
+                    <li>
+                        <a href="# ">Accesibility</a>
+                    </li>
+                    <li>
+                        <a href="# ">Promotions</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>Popular
+                    <li>
+                        <a href="# ">Milk & Flavoured Milk</a>
+                    </li>
+                    <li>
+                        <a href="# ">Butter & Margarine</a>
+                    </li>
+                    <li>
+                        <a href="# ">Eggs Substitutes</a>
+                    </li>
+                    <li>
+                        <a href="# ">Marmalades</a>
+                    </li>
+                    <li>
+                        <a href="# ">Sour Creams and Dips</a>
+                    </li>
+                    <li>
+                        <a href="# ">Tea & Kombucha</a>
+                    </li>
+                    <li>
+                        <a href="# ">Cheese</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Install App</h2>
+                <p>From App Store or Google Pay</p><br>
+                <a href="# "><img src="images/app-store.jpg " alt="app-store "></a>
+                <a href="# "><img src="images/google-play.jpg " alt="google-play "></a>
+                <p>Secured Payment Gateways</p>
+                <img src="images/mastercard.png " alt="mastercard">
+            </div>
+
+        </section>
+        <div class="footer-line "></div>
+        <section class="footer-last ">
+            <div>
+                <p>
+                    &copy;2021 <span>Nest</span> -Ecommerce Template
+                </p>
+                <p>All Rights Reserved</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="logo/phone-call.svg " alt="phone-call ">
+                    <figcaption>
+                        <h2>1900-6666</h2>
+                        <p>Working 8:00 - 22:00</p>
+                    </figcaption>
+
+                </figure>
+                <figure>
+                    <img src="logo/phone-call.svg " alt="phone-call ">
+                    <figcaption>
+                        <h2>1900-8888</h2>
+                        <p>24/7 Support Center</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <a href="# "> <img src="logo/facebook.svg " alt="facebook "></a>
+                <a href="# "> <img src="logo/twitter.svg " alt="twitter "></a>
+                <a href="# "> <img src="logo/instagram.svg " alt="instagram "></a>
+                <a href="# "> <img src="logo/pinterest.svg " alt="pinterest "></a>
+                <a href="# "> <img src="logo/youtube.svg " alt="youtube "></a>
+                <h5>Up To 15% Discount on your first subscribe</h5>
+            </div>
+
+        </section>
+    </footer>
+
+</body>
+<script src="sdc.js "></script>
+
+
+</html>
